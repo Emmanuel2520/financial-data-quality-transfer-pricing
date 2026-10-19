@@ -1,0 +1,11 @@
+row_number,transaction_id,code,category,severity,explanation
+1,TX-000001,MISSING_AGREEMENT_ID,quality,medium,Missing agreement_id; obtain source evidence.
+2,TX-000003,DUPLICATE_ID,quality,high,Transaction ID occurs more than once; reconcile before aggregation.
+3,TX-000003,DUPLICATE_ID,quality,high,Transaction ID occurs more than once; reconcile before aggregation.
+4,TX-000004,INVALID_SIGN,quality,high,Demo accepts nonnegative revenue and positive cost; credit notes need separate treatment.
+5,TX-000005,INVALID_AMOUNT,quality,high,Revenue and cost must be finite numeric amounts.
+6,TX-000006,INVALID_DATE,quality,high,Invoice date must be a valid YYYY-MM-DD date.
+7,TX-000007,DEMO_MARKUP_EXCEPTION,review,medium,Cost markup outside invented demonstration band; investigate comparability. Not an IRS threshold or compliance finding.
+8,TX-000008,OUT_OF_SCOPE,scope,medium,Only cross-border US-related services denominated in USD are evaluated in v1.
+9,TX-000009,MISSING_BUYER,quality,high,Missing buyer; obtain source evidence.
+10,TX-000010,INVALID_SIGN,quality,high,Demo accepts nonnegative revenue and positive cost; credit notes need separate treatment.

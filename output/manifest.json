@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2026-10-19T21:01:42.513957+00:00",
+  "input_sha256": "69bb76699bba6cf82d8df95c93480f9af84db984573685b86cce00ab8c71832e",
+  "config": {
+    "demo_markup_min": 0.03,
+    "demo_markup_max": 0.15,
+    "note": "Invented educational service cost-markup band. Not regulatory thresholds or an arm's-length benchmark."
+  },
+  "rows": 1000,
+  "findings": 10,
+  "statuses": {
+    "review": 2,
+    "quarantined": 7,
+    "out_of_scope": 1,
+    "no_flags": 990
+  }
+}
